@@ -4,10 +4,10 @@
         <nav class="navbar flex">
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a href="{{ route('home') }}">Home</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="{{ route('movie') }}">Movies</a>
                 </li>
             </ul>
         </nav>

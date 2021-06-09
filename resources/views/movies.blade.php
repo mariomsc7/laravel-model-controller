@@ -3,7 +3,7 @@
 @section('content')
 
     <section>
-        <h1>There is nothing here... check Movies!</h1>
+        <h1>Qui ci saranno i film</h1>
     </section>
 
 @endsection
