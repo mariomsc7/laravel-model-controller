@@ -1,0 +1,47 @@
+/*******************************************************************************
+
+        APP MAIN STYLES
+
+*******************************************************************************/
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  padding: 2rem;
+  background-color: dodgerblue;
+  color: #fff;
+}
+
+.navbar {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+}
