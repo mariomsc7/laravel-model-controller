@@ -1,0 +1,21 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    .card {
+        margin: 10px;
+        flex-basis: 335px;
+        padding: 2rem;
+        background-color: dodgerblue;
+        border: 2px solid yellow;
+        box-shadow: 5px 10px 18px rgb(0, 162, 255);
+        color: $text-w;
+        border-radius: 10px;
+        span {
+            color: yellow;
+        }
+        h4 {
+            padding: 1rem;
+        }
+    }
+}

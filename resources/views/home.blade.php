@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <section>
+    <section class="home">
         <h1>There is nothing here... check Movies!</h1>
     </section>
 

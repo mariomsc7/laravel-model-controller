@@ -3,12 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Movie;
 
 class MovieController extends Controller
 {
     // ARCHIVIO FILM
 
     public function index() {
-        return view('movies');
+
+        // get movies from database
+        $movies = Movie::all();
+        
+
+        // return user view
+        return view('movies', compact('movies'));
     }
 }

@@ -10,6 +10,14 @@
   box-sizing: border-box;
 }
 
+/* Home default*/
+.home {
+  margin-top: 300px;
+  text-align: center;
+  font-size: 3rem;
+  transform: skewY(-20deg);
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -44,4 +52,26 @@ header {
   font-size: 1.3rem;
   font-weight: bold;
   color: #fff;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+.box .card {
+  margin: 10px;
+  flex-basis: 335px;
+  padding: 2rem;
+  background-color: dodgerblue;
+  border: 2px solid yellow;
+  box-shadow: 5px 10px 18px #00a2ff;
+  color: #fff;
+  border-radius: 10px;
+}
+.box .card span {
+  color: yellow;
+}
+.box .card h4 {
+  padding: 1rem;
 }
